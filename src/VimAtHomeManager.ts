@@ -176,7 +176,7 @@ export default class VimAtHomeManager {
             return;
         }
         
-        this.mode.fixSelection();
+        // this.mode.fixSelection();
         selectionHistory.recordSelection(this.editor);
         this.setUI();
     }
